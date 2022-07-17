@@ -10147,3 +10147,35 @@ div { position: absolute; }
 
 
 /* Add your custom CSS here */
+#create{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 17px 31px;
+gap: 10px;
+
+position: absolute;
+width: 287px;
+height: 82px;
+left: calc(50% - 287px/2 - 308.5px);
+top: calc(50% - 82px/2 + 190px);
+
+background: #0C539B;
+border-radius: 20px;
+}
+#signup{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 17px 31px;
+gap: 10px;
+
+position: absolute;
+width: 171px;
+height: 82px;
+left: calc(50% - 171px/2 + 321.5px);
+top: calc(50% - 82px/2 + 190px);
+
+background: #0C539B;
+border-radius: 20px;
+}
