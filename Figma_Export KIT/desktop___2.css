@@ -10162,8 +10162,9 @@ top: calc(50% - 82px/2 + 190px);
 
 background: #0C539B;
 border-radius: 20px;
+transition: background 0.5s;
 }
-#signup{
+#submit{
 	display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -10178,4 +10179,11 @@ top: calc(50% - 82px/2 + 190px);
 
 background: #0C539B;
 border-radius: 20px;
+transition: background 0.5s;
+}
+#create:hover{
+	background: #001D4A;
+}
+#submit:hover{
+	background: #001D4A;
 }
