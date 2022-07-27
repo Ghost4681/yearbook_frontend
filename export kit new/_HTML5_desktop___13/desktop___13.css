@@ -2,7 +2,7 @@
 	@name desktop___13
 */
 /* Only edit this if you know what you are doing! */
-body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+body { margin: 0px; background-image: url("skins/bg.png"); background-size:cover; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 
 /* Only edit this if you know what you are doing! */
 img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
@@ -139,8 +139,8 @@ div { position: absolute; }
 #spiral_open_removebg_preview_1 {
 	top: 362px;
 	left: 199px;
-	width: 823.69px;
-	height: 100.22px;
+	/* width: 823.69px; */
+	/* height: 100.22px; */
 }
 
 
