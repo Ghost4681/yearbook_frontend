@@ -5,56 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
     <script src="./main.js" defer></script>
     <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
 </head>
-<style>
 
-    body {
-        background-image: url("image/bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    </style>
 <body>
 
     <!-- Previous Button -->
     <button id="prev-btn">
-        <i class="fas fa-arrow-circle-left"></i>
+        <img src="image/la.png" style="width: 50px;height: 50px ;">
     </button>
     
     <!-- Book -->
     <div id="book" class="book">
         <!-- Paper 1 -->
         <div id="p1" class="paper">
-            
+            <!-- PAPER 1 FRONT SIDE -->
             <div class="front">
                 <div id="f1" class="front-content">
                     <img src="image/1.png">
-                   
                 </div>
             </div>
+            <!-- PAPER 1 BACK SIDE -->
             <div class="back">
                 <div id="b1" class="back-content">
                     <img src="image/2.png">
-                    <h1 style="position: absolute;">khgbskjgbvks</h1>
+                    <div class="container" style="position: absolute;">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <h1>Sign Up</h1>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>ITII Email ID</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Username</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Password</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="password"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                               <a href="/hello"><button type="button" class="btn btn-primary">Create Account</button></a> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Paper 2 -->
         <div id="p2" class="paper">
+            <!-- paper 2 front page -->
             <div class="front">
                 <div id="f2" class="front-content">
                     <img src="image/3.png">
-                    <h1 style="position: absolute;">khgbskjgbvks</h1>
+                    <div class="container" style="position: absolute;">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <h1>Sign In</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Username</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Password</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="password"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><a href="/hello"><p>Forgot Password?</p></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                               <a href="/hello"><button type="button" class="btn btn-primary">Submit</button></a> 
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="back">
-                
+            <!-- paper 2 back side -->
+            <div class="back">   
                 <div id="b2" class="back-content">
                     <img src="image/2.png">
-                    <h1 style="position: absolute;">khgbskjgbvks</h1>
+                    <div class="container" style="position: absolute;">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <h1>Create Your Profile</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>First Name</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Last Name</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Your Yearbook Quote</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,19 +158,53 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <img src="image/3.png">
-                    <h1 style="position: absolute;">khgbskjgbvks</h1>
+                    <div class="container" style="position: absolute;">
+                        <div class="row">
+                            <div class="col-12"><h1>iugbs</h1></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Your Work Experience</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Your Favorite College Memory?</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><h3>Tell us a little bit yourself</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-11"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                               <a href="/hello"><button type="button" class="btn btn-primary">Submit</button></a> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
+                <img src="image/2.png">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Next Button -->
-    <button id="next-btn">
-        <i class="fas fa-arrow-circle-right"></i>
+    <button id="next-btn" class="button_1">
+        <img src="image/ra.png" style="width: 50px;height: 50px;">
     </button>
 </body>
 </html>
