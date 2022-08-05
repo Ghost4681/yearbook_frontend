@@ -18,7 +18,7 @@ body {
 }
 
 /* indie flower font */
-h1 { font-family: "Indie Flower"; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center; } h3 { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } p { font-family: "Indie Flower"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } blockquote { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } pre { font-family: "Indie Flower"; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+h1 { font-family: "Indie Flower"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center; } h3 { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } p { font-family: "Indie Flower"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } blockquote { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } pre { font-family: "Indie Flower"; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
 
 input{
     border-radius:25px ;
@@ -119,7 +119,11 @@ textarea {
     height: 150px;
     resize: none;
   }
-  
+
+.space{
+    padding-top: 3%;
+}
+
 /* Controller Buttons */
 button {
     border: none;
@@ -154,7 +158,7 @@ button:hover img {
 }
 
 .button_1:hover img {
-    color: #636363;
+    color: #ffffff;
     transition: transform 0.3s;
     transform: translateX(10px);
 }
@@ -166,13 +170,13 @@ i {
 
 /* Paper stack order */
 #p1 {
-    z-index: 3;
+    z-index: 4;
 }
 
 #p2 {
-    z-index: 2;
+    z-index: 3;
 }
 
 #p3 {
-    z-index: 1;
+    z-index: 2;
 }

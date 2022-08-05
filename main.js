@@ -13,7 +13,7 @@ nextBtn.addEventListener("click", goNextPage);
 
 // Business Logic
 let currentLocation = 1;
-let numOfPapers = 3;
+let numOfPapers = 4;
 let maxLocation = numOfPapers + 1;
 
 function openBook() {
@@ -63,16 +63,16 @@ function goPrevPage() {
             case 2:
                 closeBook(true);
                 paper1.classList.remove("flipped");
-                paper1.style.zIndex = 3;
+                paper1.style.zIndex = 4;
                 break;
             case 3:
                 paper2.classList.remove("flipped");
-                paper2.style.zIndex = 2;
+                paper2.style.zIndex = 3;
                 break;
             case 4:
                 openBook();
                 paper3.classList.remove("flipped");
-                paper3.style.zIndex = 1;
+                paper3.style.zIndex = 2;
                 break;
             default:
                 throw new Error("unkown state");
