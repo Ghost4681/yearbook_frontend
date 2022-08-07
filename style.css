@@ -19,11 +19,12 @@ body {
 
 /* indie flower font */
 h1 { font-family: "Indie Flower"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center;
-position: relative; top: -130%;} 
+position: relative; } 
+h2{font-family: "Indie Flower"; font-size: small; font-style:normal; font-variant: normal; font-weight: 300; line-height: 23px; text-align: center;}
  h3 { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; margin-bottom: 0%; padding-bottom: 0%;} 
  h4{font-family: "Indie Flower"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center;
     position: relative; top: -130%; margin-bottom: 0%;}
- p { font-family: "Indie Flower"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; text-align: center;} 
+ p { font-family: "Indie Flower"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; text-align: center; padding: 0;} 
  blockquote { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
  pre { font-family: "Indie Flower"; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
 
@@ -80,7 +81,9 @@ input{
 
     
 }
-
+.col-12{
+    padding: 0%;
+}
 .back {
     z-index: 0;
     /* background-image: url("image/2.png"); */
@@ -186,6 +189,7 @@ i {
     padding-bottom: 10px;
 }
 
+
 input[type="text"]{
     width: 80%;
 }
@@ -201,6 +205,9 @@ input[type="password"]{
     max-height: 20%;
    margin-left: 25%;
 }
+.row{
+   padding: 0%;
+}
 ul,li{
     list-style:none;
   }
@@ -212,14 +219,13 @@ ul,li{
   ul li {
     text-decoration:none;
     color:#000;
-    background:#ffc;
+    background:#EAF8BF;
     display:block;
-    height:8em;
-    width:8em;
-    padding:1em;
-  }
-  ul li{
-    margin:1em;
+    height:90%;
+    width:160%;
+    padding: 30px;
+    margin-bottom: 0%;
+    margin:0.5em;
   }
 /* Paper stack order */
 #p1 {
