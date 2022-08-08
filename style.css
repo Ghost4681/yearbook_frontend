@@ -19,7 +19,7 @@ body {
 
 /* indie flower font */
 h1 { font-family: "Indie Flower"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center;
-position: relative; margin-top: 0%; margin-bottom: 10%; } 
+position: relative; } 
 h2{font-family: "Indie Flower"; font-size: small; font-style:normal; font-variant: normal; font-weight: 300; line-height: 23px; text-align: center;}
  h3 { font-family: "Indie Flower"; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; margin-bottom: 0%; padding-bottom: 0%;} 
  h4{font-family: "Indie Flower"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; text-align: center;
