@@ -141,7 +141,7 @@ a{
 }
 
 textarea {
-    height: 150px;
+    height: 26.4vh;
     resize: none;
   }
 
@@ -327,11 +327,11 @@ input[type="password"]{
 .column {
     flex: 33.333%;
     max-width: 33.333%;
-    padding: 0 4px;
+    padding: 0 0.704vh;
 }
 
 .column img {
-margin-top: 8px;
+margin-top: 1.408vh;
 vertical-align: middle;
 width: 100%;
 }
