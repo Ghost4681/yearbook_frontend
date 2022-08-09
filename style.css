@@ -323,18 +323,26 @@ input[type="password"]{
 }
 
 /* for gallery layout */
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 .column {
     flex: 33.333%;
     max-width: 33.333%;
     padding: 0 0.704vh;
 }
 
-.column img {
+/* .column img {
 margin-top: 1.408vh;
-vertical-align: middle;
-width: 100%;
-}
+=======
+    padding: 0 0.58vw;
+} */
+
+/* .column img { */
+/* margin-top: 8px; */
+/* >>>>>>> Stashed changes */
+/* vertical-align: middle; */
+/* width: 100%; */
+/*  */
+/* } */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -350,6 +358,12 @@ width: 100%;
     flex: 100%;
     max-width: 100%;
 }
+}
+.collage{
+    display: flex;
+}
+.collage img{
+    object-fit: cover;
 }
 ul,li{
     list-style:none;
