@@ -329,12 +329,16 @@ input[type="password"]{
     max-width: 33.333%;
     padding: 0 0.704vh;
 }
-
-/* .column img {
-margin-top: 1.408vh;
-=======
+.column_big{
+    flex: 50%;
+    max-width: 50%;
+    width: 50%;
+    padding: 0 0.704vh;
+}
+.column img {
+    margin-top: 1.408vh;
     padding: 0 0.58vw;
-} */
+}
 
 /* .column img { */
 /* margin-top: 8px; */
